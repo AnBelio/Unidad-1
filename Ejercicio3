@@ -1,0 +1,17 @@
+//¿Son iguales estos 3 identificadores: Casa    casa    caSa?. 
+//Escribe un programa indicando entre comentarios la respuesta.
+
+public class Ejercicio13 {
+
+    public static void main(String[] args) {
+
+        String Casa = "patata";
+
+        String casa = "patata";
+
+        String caSa = "patata";
+
+        //No son igual ya que cada uno de ellos tiene una escritura distanta, uno solo con minusculas,
+        // otro empieza por mañuscula y el ultimo tiene la S en mayuscula, el programa no relacionara el uno con el otro
+    }
+}
