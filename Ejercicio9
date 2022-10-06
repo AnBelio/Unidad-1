@@ -1,0 +1,30 @@
+//Escribe un programa que lea del teclado un tiempo transcurrido en segundos y muestre por pantalla las horas, minutos y segundos equivalentes.
+
+import java.util.Scanner;
+
+public class Ejemplo15 {
+
+    public static void main(String[] args) {
+
+
+        Scanner sc = new Scanner(System.in);
+        int dias,diasresto ,horasresto ,horas , minutos, segundos, entrada, temporal;
+
+        System.out.println("Dame los segundos a convertir ");
+        entrada = sc.nextInt();
+
+        segundos = entrada % 60;
+        temporal = entrada / 60;
+
+        minutos = temporal % 60;
+
+        horasresto = minutos %60;
+        horas = temporal /60;
+
+        dias = horas/24;
+        horas = horas %24;
+
+        System.out.format("%d segundos equivalen a %d dias, %d horas, %d minutos y %d segundos", entrada, dias, horas, minutos, segundos);
+
+    }
+}
