@@ -1,0 +1,36 @@
+//¿Cuál de los siguientes identificadores no es válido?. 
+//Escribe un programa indicando entre comentarios la respuesta.
+
+//casa    mi-casa    mi*casa    micasa1
+
+//_MES    MES_1    MES%UNO    mes$1
+
+//a980    890a        _año90    $a890
+
+public class Ejercicio12 {
+
+    public static void main(String[] args) {
+
+        String casa = "patata";
+
+        String mi-casa = "patata";
+        //No lo detecta debido a el uso del guión
+        String mi*casa = "patata";
+        //No lo detecta debido a el uso del asterisco
+        String micasa1 = "patata";
+
+        String _MES = "patata";
+
+        String MES_1 = "patata";
+
+        String MES%UNO = "patata";
+        //No lo detecta debido a el uso del porcentaje
+        String mes$1 = "patata";
+
+        String a980 = "patata";
+
+        String 890a = "patata";
+        //No lo detecta debido a el uso inicial de un número
+        String _año90 = "patata";
+
+        String $a890 = "patata";
