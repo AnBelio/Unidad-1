@@ -1,0 +1,21 @@
+//Escribe un programa que solicite la longitud y anchura en metros de una habitación e imprima su superficie con cuatro decimales.
+
+import java.util.Scanner;
+
+public class Ejercicio10 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        double longitud;
+        double anchura;
+
+        System.out.println("Introduce la longitud de la habitación");
+        longitud = sc.nextDouble();
+
+        System.out.println("Introduce el valor de la anchura");
+        anchura = sc.nextDouble();
+
+        System.out.printf("El área de la habitación es " + "%.4f", longitud*anchura);
+    }
+}
