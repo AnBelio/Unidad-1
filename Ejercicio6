@@ -1,0 +1,16 @@
+//Escribe un programa que pase de euros a dólares (1€ = 1,1755$).
+
+import java.util.Scanner;
+
+public class Ejercicio10 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        final double dolar = 1.1755;
+        double € = sc.nextDouble();
+
+        System.out.println(€*dolar);
+    }
+
+}
