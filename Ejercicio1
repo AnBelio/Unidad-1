@@ -1,0 +1,19 @@
+//Escribe un programa en el que se muestren por pantalla tus datos personales, 
+//cada uno de ellos en una línea (nombre, primer apellido, segundo apellido, localidad 
+//en la que vives, deporte favorito y número de años que llevas programando)
+
+public class Ejercicio7 {
+
+    public static void main(String[] args) {
+
+        String Nombre = "Nombre\t\t\t\t\tAndrés\n";
+        String Apellido1 = "Primer Apellido\t\t\tBelío\n";
+        String Apellido2 = "Segundo Apellido\t\tMallén\n";
+        String Localidad = "Localidad\t\t\t\tSanta Eulalia de Gállego\n";
+        String DeporteFavorito = "Deporte Favorito\t\tFútbol\n";
+        String AñosProgramando = "Tiempo Programando\t\t5 días\n";
+
+        System.out.println(Nombre+Apellido1+Apellido2+Localidad+DeporteFavorito+AñosProgramando);
+
+    }
+}
