@@ -1,0 +1,18 @@
+//Escribe un programa que defina la constante PI como 3.1416 que calcule e imprima el 
+//área de un círculo cuyo radio se pide por pantalla. (área del círculo = PI*radio^2).
+
+import java.util.Scanner;
+
+public class Ejercicio9 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        final double PI = 3.1416;
+        double r = sc.nextDouble();
+
+        System.out.printf("Área circulo de radio %.0f es %.2f" ,r, (PI*r*r));
+
+    }
+}
